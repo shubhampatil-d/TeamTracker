@@ -27,7 +27,6 @@ TeamTracker is a **Dockerized Django** application for managing tasks and projec
 - 🔧 **PostgreSQL database** with Docker volume persistence
 
 ---
-
 ## 📂 Folder Structure
 
 ```bash
@@ -40,3 +39,30 @@ TeamTrack/
 ├── requirements.txt    # Python dependencies
 └── .env                # Environment variables (excluded from Git)
 ```
+---
+## 📸 Features Overview
+
+### 🔐 Authentication & Roles
+- Custom roles: **Admin**, **Manager**, **Member**
+- Role-based dashboards and permissions
+
+### 🧑‍💼 Admin Dashboard
+- Manage all users, projects, and tasks
+- Assign users and define roles
+
+### 📁 Project Management
+- Create/edit/delete projects
+- Assign managers or team members
+
+### 📌 Task Management
+- Create/edit/delete tasks
+- Assign to users, set priority, deadline, and status
+
+### 📊 Member View
+- Access assigned tasks only
+- Update task progress/status
+
+---
+
+
+
