@@ -1,0 +1,10 @@
+<h2>Your Projects</h2>
+<ul>
+    {% for project in projects %}
+        <li>
+            {{ project.name }} -
+            <a href="{% url 'task_list' project.id %}">View Tasks</a>
+        </li>
+    {% endfor %}
+</ul>
+<a href="{% url 'project_create' %}">+ Create New Project</a>

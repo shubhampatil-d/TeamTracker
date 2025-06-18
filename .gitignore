@@ -1,0 +1,33 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Virtualenv
+env/
+venv/
+
+# Env file
+.env
+
+# DB and secrets
+*.sqlite3
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Docker
+*.pid
+*.tar
+*.bak
+*.db
+*.swp
+*.sock
+*.pid
+*.gz
+*.tgz
+*.log
+docker-compose.override.yml

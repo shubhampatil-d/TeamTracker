@@ -1,0 +1,7 @@
+<h2>Tasks in {{ project.name }}</h2>
+<ul>
+    {% for task in tasks %}
+        <li>{{ task.title }} - {{ task.status }} - {{ task.assigned_to }}</li>
+    {% endfor %}
+</ul>
+<a href="{% url 'task_create' project.id %}">+ Add Task</a>
