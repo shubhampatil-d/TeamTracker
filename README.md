@@ -39,3 +39,4 @@ TeamTrack/
 ├── docker-compose.yml  # Runs web + db
 ├── requirements.txt    # Python dependencies
 └── .env                # Environment variables (excluded from Git)
+```
